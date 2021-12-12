@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Alumni Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #a6680e;
+}
+
+.topbar {
+  min-height: 20px;
+  padding: 8PX;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #503223;
+}
+
+  .navbar {
+  height: 130px;
+  align-items: center;
+  display:flex;
+  justify-content: space-between;
+  background-color:#fff;
+  padding: 48px 12px 0px 12px;
+}
+
+.navbar_menu {
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar_menu li {
+  padding: 8px 20px;
+}
+
+.navbar_menu li :hover{
+  color: #d68861;
+}
+
+.navbar_lang {
+  display:flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+
+.navbar_lang li {
+  padding: 8px 12px;
+}
+
+.navbar_lang li :hover{
+  color: #d68861;
+}
+
+
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url("box4.JPG");
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner h2 {
+  letter-spacing: 1px;
+  padding-top: 10%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  font-family: 'Alumni Sans', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color:#fff;
+}
+
+.banner p {
+  font-family: serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+  padding-left: 2.5%;
+  font-size: 16px;
+  font-weight: 600;
+  color:#fff;
+  margin: 0px 0px 40px 0px;
+}
+
+.button {
+margin-left: 2.5%;
+background-color: #transparent;
+border-style: solid;
+border-width: 1px;
+border-color: #fff;
+color: #fff;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+letter-spacing: 2px;
+padding: 15px 25px;
+}
+
+.button:hover{
+  background-color: #fff;
+  color: #503223;
+}
+
+.content {
+  width:100%;
+  position: relative;
+  background: #ebebeb;
+  height: 1500px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar_menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
